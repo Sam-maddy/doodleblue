@@ -1,0 +1,97 @@
+h1{
+    color: rgb(34, 7, 59);
+}
+
+p{
+    color: rgb(47, 9, 9);
+    font-size: 20px;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: rgb(173, 216, 230);
+    
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: skyblue;
+}
+
+nav {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    color: #0077b6;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333333;
+}
+
+nav a:hover {
+    color: #0077b6;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+    color: #023e8a;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+button {
+    background-color: #0077b6;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #023e8a;
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    margin: 0 auto 40px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px #00000020;
+}
+
+.card h2 {
+    color: #0077b6;
+    margin-bottom: 10px;
+}

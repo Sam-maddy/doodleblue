@@ -1,0 +1,112 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: skyblue;
+    margin: 0;
+    color: rgb(0, 0, 0);
+}
+
+head{
+    background-color: white;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header
+header h2{
+    color: rgb(219, 8, 8);
+    margin: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(29, 10, 202);
+    margin-left: 10px;
+    
+}
+
+nav a:hover{
+    color: rgb(27, 5, 61);
+}
+
+
+.hero{
+    background-color: azure;
+    padding: 40px;
+    margin: 30px;
+    border-radius: 10px;
+}
+
+.hero h1{
+    color: rgb(15, 14, 14);
+    
+}
+
+#events{
+    margin:30px;
+}
+
+.event-container{
+    display: flex;
+    gap: 20px;
+    
+}
+
+article{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1;
+    overflow: hidden;
+    box-shadow: 0 2px 8px #ccc
+}
+
+article h3,article p{
+    margin: 15px;
+}
+
+.banner{
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.tech{
+    background-color: blueviolet;
+}
+
+.culture{
+    background-color: blueviolet;
+}
+
+.sports{
+    background-color: blueviolet;
+}
+
+.btn{
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    
+    text-decoration: none;
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px){
+    .events-container{
+        flex-direction: column;
+    }
+    .events-container {
+        flex-direction: column;
+    }
+}
